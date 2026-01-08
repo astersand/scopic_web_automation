@@ -23,6 +23,7 @@ module.exports = defineConfig({
     STANDARD_USER: process.env.STANDARD_USER,
     LOCKED_USER: process.env.LOCKED_USER,
     VALID_PASSWORD: process.env.VALID_PASSWORD,
-    INVALID_PASSWORD: process.env.INVALID_PASSWORD
+    INVALID_PASSWORD: process.env.INVALID_PASSWORD,
+    API_URL: process.env.API_URL
   }
 });
