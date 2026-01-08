@@ -1,4 +1,4 @@
-import loginPageSelectors from '../support/PageObjectModel/loginPageSelectors';
+import loginPageSelectors from '../../support/PageObjectModel/loginPageSelectors';
 
 context('Tests for login functionality', () => {
     before(('Visit the login page'), () => {

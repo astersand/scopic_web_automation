@@ -1,8 +1,8 @@
-import inventoryPageSelectors from '../support/PageObjectModel/inventoryPageSelectors';
-import checkoutInformationPageSelectors from '../support/PageObjectModel/checkoutInformationPageSelectors';
-import checkoutOverviewPageSelectors from '../support/PageObjectModel/checkoutOverviewPageSelectors';
-import checkoutCompletePageSelectors from '../support/PageObjectModel/checkoutCompletePageSelectors';
-import cartPageSelectors from '../support/PageObjectModel/cartPageSelectors';
+import inventoryPageSelectors from '../../support/PageObjectModel/inventoryPageSelectors';
+import checkoutInformationPageSelectors from '../../support/PageObjectModel/checkoutInformationPageSelectors';
+import checkoutOverviewPageSelectors from '../../support/PageObjectModel/checkoutOverviewPageSelectors';
+import checkoutCompletePageSelectors from '../../support/PageObjectModel/checkoutCompletePageSelectors';
+import cartPageSelectors from '../../support/PageObjectModel/cartPageSelectors';
 
 context(('Tests for add to cart and checkout functionality'), () => {
     let products = [];
