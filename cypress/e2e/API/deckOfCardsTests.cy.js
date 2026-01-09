@@ -1,5 +1,5 @@
 context('Deck of Cards API Tests', () => {
-    const apiUrl = Cypress.env('API_URL');
+    const apiUrl = Cypress.env('API_URL_DECKOFCARDS');
     let deckId = '';
     let drawnCards = '';
 
