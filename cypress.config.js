@@ -24,6 +24,8 @@ module.exports = defineConfig({
     LOCKED_USER: process.env.LOCKED_USER,
     VALID_PASSWORD: process.env.VALID_PASSWORD,
     INVALID_PASSWORD: process.env.INVALID_PASSWORD,
-    API_URL: process.env.API_URL
+    API_URL_DECKOFCARDS: process.env.API_URL_DECKOFCARDS,
+    API_URL_REQRES: process.env.API_URL_REQRES,
+    REQRES_API_KEY: process.env.REQRES_API_KEY
   }
 });
